@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@1,600;1,800&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(47, 88%, 63%);
+    font-family: Figtree;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 100%);
+    width: 340px;
+    height: auto;
+    box-shadow: 12px 15px 2px 2px hsl(0, 0%, 7%);
+    margin-top: 80px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.learning {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(239, 178, 56);
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+a {
+    color: hsl(0, 0%, 7%);
+    text-decoration: none;
+    font-size: 25px;
+    font-family: system-ui;
+    font-weight: 700;
+}
+
+a:hover {
+    color: hsl(47, 100%, 50%);
+}
+
+.design {
+    border-radius: 10px;
+}
+
+.para2 {
+    color: hsl(0, 0%, 50%);
+    line-height: 25px;
+}
+
+.creater {
+    display: flex;
+    align-items: center;
+    width: 160px;
+    font-size: 10px;
+    gap: 8px;
+}
+
+.avatar {
+    width: 40px;
+}
+
+@media only screen and (max-width:450px) {
+    body {
+        font-size: 14px;
+    }
+
+    .container {
+        width: 250px;
+        height: 400px;
+        margin-top: 50px;
+        padding: 20px;
+
+    }
+
+    .design {
+        width: 260px;
+    }
+
+    a {
+        font-size: 18px;
+
+    }
+
+    .creater {
+
+        width: 120px;
+        font-size: 7px;
+        gap: 8px;
+    }
+
+    .avatar {
+        width: 35px;
+    }
+}
